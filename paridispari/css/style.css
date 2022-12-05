@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.background-white {
+    background-color: white;
+}
+
+.box-shadow {
+    box-shadow: 1px 1px 5px black;
+}
+
+.background-body {
+    background-color: rgba(0, 121, 0, 0.685)
+}
+
+.custom-text-color {
+    color: rgba(185,21,80,255);
+}
+
+.custom-border-color {
+    border: 1px solid rgba(185,21,80,255);
+    border-radius: 5px;
+}
+
+.custom-button {
+    padding: 8px;
+    border-radius: 10px;
+    background-color: rgba(185,21,80,255);
+    text-decoration: none;
+    color: white;
+}
+
+.custom-button:hover {
+    color:white;
+    box-shadow: 1px 1px 5px black;
+}

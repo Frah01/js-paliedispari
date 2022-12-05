@@ -2,9 +2,8 @@ const buttongenerate= document.getElementById ('generate');
 
 generate.addEventListener('click', function(){
 
-    let input_paridispari= document.getElementById('pari_dispari');
-    let value_input= input_paridispari.value
-    console.log(value_input)
+    let input_paridispari= document.getElementById('pari_dispari').value;
+    console.log(input_paridispari)
 
     let input_number= document.getElementById('scelta_numero').value;
     let second_value_input= input_number * 1
